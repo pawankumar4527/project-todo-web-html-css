@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 55%;
+    height: 10%;
+    margin: 50px auto;
+    position:relative;
+    
+
+}
+.container1{
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+.containera{
+    width: 50%;
+    height: 100%;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+#trip{
+    font-weight: bold;
+    font-size: 3.5rem;
+     align-items: center;
+     
+
+}
+
+
+#tasks{
+    font-weight: bold;
+    font-size: 3.5rem;
+
+}
+#lists{
+    font-size: 3rem;
+    margin-left: 10px;
+    opacity: .5;
+}
+.container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    
+    
+}
+.containerb{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    top:0px;
+    right: 0px;
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    position: relative;
+    
+
+}
+.back{
+    height: 100%;
+    width: 80%;
+    top: 20px;
+    right: 0;
+    opacity: .5;
+    font-size: 22px;
+    padding-top: 7px;
+    position:absolute;
+    left:20%;
+    bottom: 20px;
+    
+    
+   
+}
+#addlists{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    right: 0;
+    opacity: .5;
+    font-size: 30px;
+    padding-top: 25px; 
+    
+
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+}
+.card0{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card1{
+    margin-top: 10px;
+    border: 2px solid red;
+    width: 15%;
+    height: 350px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px grey;
+    
+    
+}
+.card2{
+    margin-top: 10px;
+    border: 1.5px solid red;
+    width: 27%;
+    height: 340px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px grey;
+    
+    
+}
+#circleb{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.div1{
+    position: absolute;
+    width: 85%;
+    height: 15%;
+    font-size: 25px;
+    color:blueviolet ;
+    top: 15px;
+    right: 0;
+    text-align: left;
+    border-bottom: 2px solid burlywood;
+}
+.diva{
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    font-size: 25px;
+    color:blueviolet ;
+    top: 15px;
+    right:0;
+    text-align:start;
+    border-bottom: 2px solid burlywood;
+}
+.div2{
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    color: brown;
+    top:35%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+.divb{
+    position:absolute;
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    color: brown;
+    top:35%;
+    /* text-align:center; */
+    left: 40%;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+.div3{
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    font-size: 25px;
+    text-align: left;
+    top: 53%;
+}
+.divc{
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    font-size: 25px;
+    text-align:right;
+    right: 25%;
+    top: 53%;
+}
+
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.notshow{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+
+}
+.pop-up{
+    position: absolute;
+    top: 30%;
+    width: 27%;
+    height: 27vh;
+    border: 1.5px solid orangered;
+    border-radius: 8px;
+    color: red;
+    left: 37%;
+    font-size: 20px;
+    box-shadow: 3px 3px 8px gray;
+    background-color: white;
+    padding: 20px;
+
+
+
+}
+.add{
+    opacity: .7;
+    font-size: 22px;
+
+}
+.pop-upbar{
+    margin-top: 20px;
+    border: 1.6px solid orangered;
+    border-radius: 5px;
+    width: 85%;
+    height: 25%;
+    box-shadow: 1px 1px 3px gray;
+}
+.pop-upbutton{
+    margin-top: 17px;
+    width: 25%;
+    height: 22%;
+    border-radius:20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 160px;
+    font-size: 20px;
+
+}
+
